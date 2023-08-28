@@ -93,6 +93,12 @@ button {
   border-radius: 10px;
   padding: 1rem 6rem;
   box-shadow: 3px 10px 15px 1px rgba(0, 0, 0, 0.38);
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(118, 108, 241, 255);
+  cursor: pointer;
 }
 
 ul {
@@ -104,10 +110,41 @@ ul {
 a {
   font-size: 0.9rem;
   font-weight: 700;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 span {
-  font-weight: 700;
+  font-weight: 900;
   color: var(--disaturated-blue);
-  font-weight: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+span:hover {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 428px) {
+  .component-container {
+    width: 90%;
+  }
+
+  button {
+    padding: 1rem 5rem;
+  }
+
+  ul {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 429px) {
+  .component-container {
+    width: 50%;
+  }
 }
