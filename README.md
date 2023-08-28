@@ -5,13 +5,15 @@ My Frontend Mentor solution for the order summary component challenge. This look
 ## Screenshots
 
 ### Desktop - 1440 width
-![image](https://github.com/Ameer-Moustafa/order-summary-component/assets/9211143/01637d66-62d0-403d-a74f-9b8d7b2fec8c)
+![image](https://github.com/Ameer-Moustafa/order-summary-component/assets/9211143/1ff49323-0381-425c-b4a2-400e23fd395e)
+
 
 
 
 
 ### Mobile - 375 width
-![image](https://github.com/Ameer-Moustafa/order-summary-component/assets/9211143/a7657422-7954-4503-a156-c186729e01bb)
+![image](https://github.com/Ameer-Moustafa/order-summary-component/assets/9211143/1533fbd6-1659-46c1-b762-4232051c9fec)
+
 
 ## My process:
 
