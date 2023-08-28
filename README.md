@@ -23,4 +23,4 @@ My Frontend Mentor solution for the order summary component challenge. This look
 
 Got some practice with using lists to organize text on-top of each other, for some reason it took a bit for it to click for me.
 
-![Live Site](https://order-summary-component-668.pages.dev)
+[Live Site](https://order-summary-component-668.pages.dev)
