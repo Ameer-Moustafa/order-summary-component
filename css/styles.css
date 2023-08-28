@@ -12,6 +12,8 @@
   --dark-blue: hsl(223, 47%, 23%);
 }
 
+/* CSS Reset */
+
 * {
   margin: 0;
   padding: 0;
