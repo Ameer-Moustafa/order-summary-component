@@ -19,6 +19,7 @@
   padding: 0;
 }
 
+/* Body styles to set the universal font, background image and center the component */
 body {
   height: 100vh;
   display: flex;
@@ -31,6 +32,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+/* Main container for the component */
 .component-container {
   background-color: var(--very-pale-blue);
   display: flex;
@@ -43,6 +45,7 @@ body {
   box-shadow: 3px 10px 15px 1px rgba(0, 0, 0, 0.38);
 }
 
+/* Hero image */
 .component-container .hero-image {
   width: 100%;
   height: auto;
@@ -50,6 +53,25 @@ body {
   border-top-left-radius: 20px;
 }
 
+/* Header styles */
+.component-container h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-top: 1rem;
+}
+
+/* Main paragraph styles */
+.component-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 75%;
+  text-align: center;
+  font-weight: 500;
+  color: var(--disaturated-blue);
+}
+
+/* Container for plan and prices */
 .plan-container {
   display: flex;
   flex-direction: row;
@@ -62,30 +84,35 @@ body {
   background-color: var(--very-pale-blue);
 }
 
-.plan-text {
+/* Styles for plan text list */
+.plan-container ul {
+  list-style: none;
+  margin-right: 5rem;
+  line-height: 1.5rem;
+}
+
+/* Styles for plan header */
+.plan-container .plan-text {
   font-weight: 700;
 }
 
-.year-text {
+/* Styles for plan price */
+.plan-container .price-text {
   color: var(--disaturated-blue);
 }
 
-h1 {
-  font-size: 1.8rem;
-  font-weight: 900;
-  color: var(--dark-blue);
-  margin-top: 1rem;
+/* Styles for plan change link */
+.plan-container a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition-duration: 0.5s;
 }
 
-p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  width: 75%;
-  text-align: center;
-  font-weight: 500;
-  color: var(--disaturated-blue);
+.plan-container a:hover {
+  text-decoration: none;
 }
 
+/* Button styles */
 button {
   font-size: 0.9rem;
   font-weight: 700;
@@ -103,22 +130,7 @@ button:hover {
   cursor: pointer;
 }
 
-ul {
-  list-style: none;
-  margin-right: 5rem;
-  line-height: 1.5rem;
-}
-
-a {
-  font-size: 0.9rem;
-  font-weight: 700;
-  transition-duration: 0.5s;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
+/* Cancel text styles */
 span {
   font-weight: 900;
   color: var(--disaturated-blue);
@@ -131,6 +143,7 @@ span:hover {
   color: var(--dark-blue);
 }
 
+/* Responsive queries for mobile and tablets */
 @media screen and (max-width: 428px) {
   .component-container {
     width: 90%;
